@@ -19,5 +19,8 @@ public class configHelper {
 		return ProperUtil.getString(properties, constants.JDBC_DRIVER_CONFIG);
 	}
 	
+	public static String getBasePackage(){
+		return ProperUtil.getString(properties, constants.BASE_PACKAGE);
+	}
 
 }
